@@ -4,27 +4,27 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.banner {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa .picture {
+.banner .picture {
     width: 100%;
 }
-.aaa .more_inf {
+.banner .link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-    .aaa {
+    .banner {
         text-align: center;
     }
 
 }
-.centered-main-page-element {
+.app-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -35,7 +35,7 @@
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.task-container {
     display: flex;
 }
 ul {
@@ -143,11 +143,11 @@ button{
     display: none;
 }
 
-.tasks .task-item.editMode .task-text {
+.tasks .task-item.edit-mode .task-text {
     display: inline-block;
     width: 224px;
 }
 
-.tasks .task-item.editMode .task {
+.tasks .task-item.edit-mode .task {
     display: none;
 }
